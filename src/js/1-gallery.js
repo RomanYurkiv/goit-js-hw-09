@@ -3,10 +3,11 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 
 const backgroundStyle = document.createElement('style');
 backgroundStyle.innerHTML = `
-.simplelightbox-overlay {
+.sl-wrapper{
   background: rgba(46, 47, 66, 0.8);
 }
 `;
+
 document.head.appendChild(backgroundStyle);
 
 const images = [
